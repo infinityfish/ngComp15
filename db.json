@@ -1,0 +1,37 @@
+{
+  "ids": {
+    "User": 3,
+    "AccessToken": 3,
+    "ACL": 6,
+    "RoleMapping": 1,
+    "Role": 1,
+    "UserCredential": 1,
+    "UserIdentity": 3,
+    "Time": 1
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"facebook-login.1039410452756054\",\"password\":\"$2a$10$C2T4sXSgcY8.6wr0Sjwa5euX2fsRP6wo4FnI/rSq2blQiIxPrcg5W\",\"email\":\"1039410452756054@loopback.facebook.com\",\"id\":1}",
+      "2": "{\"username\":\"facebook-login.10153240431371175\",\"password\":\"$2a$10$FcpaVvSFtPOixId1NBn5s.vlsJYIdO8wqMlHun.uGJu1hA2Ir6qfy\",\"email\":\"10153240431371175@loopback.facebook.com\",\"id\":2}"
+    },
+    "AccessToken": {
+      "ygrPbczhsjCJ36Afef5m9PTMpBOT550Qzsh3lfKFOSDNGSgJiGkKJm8gaNmXEF8I": "{\"id\":\"ygrPbczhsjCJ36Afef5m9PTMpBOT550Qzsh3lfKFOSDNGSgJiGkKJm8gaNmXEF8I\",\"ttl\":1209600,\"created\":\"2015-12-05T12:00:41.352Z\",\"userId\":1}",
+      "h1YF4K3M14Vt1E65a5Yope2bFhpQ2gRmxLSsQlrg8SIKHMSDT6broqpLmobpWPH4": "{\"id\":\"h1YF4K3M14Vt1E65a5Yope2bFhpQ2gRmxLSsQlrg8SIKHMSDT6broqpLmobpWPH4\",\"ttl\":1209600,\"created\":\"2016-01-25T13:48:10.833Z\",\"userId\":2}"
+    },
+    "ACL": {
+      "1": "{\"model\":\"User\",\"property\":\"__get__times\",\"accessType\":\"*\",\"permission\":\"ALLOW\",\"principalType\":\"ROLE\",\"principalId\":\"$owner\",\"id\":1}",
+      "2": "{\"model\":\"User\",\"property\":\"__get__times\",\"accessType\":\"*\",\"permission\":\"ALLOW\",\"principalType\":\"ROLE\",\"principalId\":\"$owner\",\"id\":2}",
+      "3": "{\"model\":\"User\",\"property\":\"__get__times\",\"accessType\":\"*\",\"permission\":\"ALLOW\",\"principalType\":\"ROLE\",\"principalId\":\"$owner\",\"id\":3}",
+      "4": "{\"model\":\"User\",\"property\":\"__get__times\",\"accessType\":\"*\",\"permission\":\"ALLOW\",\"principalType\":\"ROLE\",\"principalId\":\"$owner\",\"id\":4}",
+      "5": "{\"model\":\"User\",\"property\":\"__get__times\",\"accessType\":\"*\",\"permission\":\"ALLOW\",\"principalType\":\"ROLE\",\"principalId\":\"$owner\",\"id\":5}"
+    },
+    "RoleMapping": {},
+    "Role": {},
+    "UserCredential": {},
+    "UserIdentity": {
+      "1": "{\"provider\":\"facebook-login\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"1039410452756054\",\"profile\":{\"id\":\"1039410452756054\",\"displayName\":\"Eric Mabo\",\"name\":{\"familyName\":\"Mabo\",\"givenName\":\"Eric\"},\"gender\":\"male\",\"profileUrl\":\"https://www.facebook.com/app_scoped_user_id/1039410452756054/\",\"provider\":\"facebook\",\"_raw\":\"{\\\"id\\\":\\\"1039410452756054\\\",\\\"first_name\\\":\\\"Eric\\\",\\\"gender\\\":\\\"male\\\",\\\"last_name\\\":\\\"Mabo\\\",\\\"link\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\\/app_scoped_user_id\\\\/1039410452756054\\\\/\\\",\\\"locale\\\":\\\"en_US\\\",\\\"name\\\":\\\"Eric Mabo\\\",\\\"timezone\\\":-5,\\\"updated_time\\\":\\\"2015-06-07T01:07:24+0000\\\",\\\"verified\\\":true}\",\"_json\":{\"id\":\"1039410452756054\",\"first_name\":\"Eric\",\"gender\":\"male\",\"last_name\":\"Mabo\",\"link\":\"https://www.facebook.com/app_scoped_user_id/1039410452756054/\",\"locale\":\"en_US\",\"name\":\"Eric Mabo\",\"timezone\":-5,\"updated_time\":\"2015-06-07T01:07:24+0000\",\"verified\":true}},\"credentials\":{\"accessToken\":\"CAANEayTmiN4BAIi5vZAwKbGVeiC36dBF0CZBQpGrBw1rjMSMHnkaccMwl5JJZCna19WZC28qLZA0topA48H4dm22a5RZCvZBBcT5ckrQNjC4WlEvAgTg92lZBWeTACK9KXXxOqJlVqVr58TnSkHwQJZANw1L2fWSYKZAflGQ3qYZANlZBZBwVAKwkdhALe25tSXXMmy4ZD\"},\"created\":\"2015-12-05T12:00:41.349Z\",\"modified\":\"2015-12-05T12:00:41.349Z\",\"userId\":1,\"id\":1}",
+      "2": "{\"provider\":\"facebook-login\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"10153240431371175\",\"profile\":{\"id\":\"10153240431371175\",\"displayName\":\"Rosy Fonche\",\"name\":{\"familyName\":\"Fonche\",\"givenName\":\"Rosy\"},\"profileUrl\":\"https://www.facebook.com/app_scoped_user_id/10153240431371175/\",\"provider\":\"facebook\",\"_raw\":\"{\\\"id\\\":\\\"10153240431371175\\\",\\\"first_name\\\":\\\"Rosy\\\",\\\"last_name\\\":\\\"Fonche\\\",\\\"link\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\\/app_scoped_user_id\\\\/10153240431371175\\\\/\\\",\\\"locale\\\":\\\"en_US\\\",\\\"name\\\":\\\"Rosy Fonche\\\",\\\"timezone\\\":-5,\\\"updated_time\\\":\\\"2015-11-18T04:30:08+0000\\\",\\\"verified\\\":true}\",\"_json\":{\"id\":\"10153240431371175\",\"first_name\":\"Rosy\",\"last_name\":\"Fonche\",\"link\":\"https://www.facebook.com/app_scoped_user_id/10153240431371175/\",\"locale\":\"en_US\",\"name\":\"Rosy Fonche\",\"timezone\":-5,\"updated_time\":\"2015-11-18T04:30:08+0000\",\"verified\":true}},\"credentials\":{\"accessToken\":\"CAANEayTmiN4BAMtBmPdtAcc1wz15B8gVZCZA4XIuZA65okym9HpT4fVmPtayKVeMUWdRjOr1ZAQioes8DPpGUhezENGCfZB40Xy8Fe1YCCBTbzz0HbXna19tHyZC0cD3mZAiCYNjnfeyJ3KBGPBygkFR8hO3OtNQpEjW7GcMfadxZAuaQKl8xqMukoY5GJ8r4mUZB8gMbauelJQZDZD\"},\"created\":\"2016-01-25T13:48:10.804Z\",\"modified\":\"2016-01-25T13:48:10.804Z\",\"userId\":2,\"id\":2}"
+    },
+    "Time": {}
+  }
+}
